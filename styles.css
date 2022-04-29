@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+}
+
+/* heights */
+header, footer {
+    height: 5vh;
+}
+
+.hero {
+    height: 25vh;
+}
+
+.info {
+    height: 28vh;
+}
+
+.quote {
+    height: 17vh;
+}
+
+.cta {
+    height: 20vh;
+}
+
+
+/* Colors and Font-Size */
+.hero, header, footer {
+    background-color: #1f2937;
+}
+
+.hero-header {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.hero-sub, .header-link {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+    text-align: center;
+    margin: 16px auto;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+blockquote {
+    font-size: 24px;
+    font-weight: light;
+    color: #1f2937;
+    font-style: italic;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    display: inline-block;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 5px;
+}
+
+.btn-border {
+    border: 2px solid #f9faf8;
+}
+
+footer {
+    color: #e5e7eb;
+}
+
+
+/* Navbar / footer Styling */
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Containers */
+.box-img-container {
+    width: 450px;
+    background-color: lightgray;
+    color: #e5e7eb;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.round-img-container {
+    width: 10vw;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rounded-img {
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+    width: 100%;
+    height: 80px;
+}
+
+.bg-blue {
+    background-color: #3882f6; 
+    margin: 5vh auto;
+    padding: 2vh 4vw;
+    border-radius: 20px;
+}
+
+figure {
+    width: 60%;
+    margin: 16px auto;
+}
+
+/* Alignment */
+
+.hero-content {
+    margin-right: 100px
+}
+
+.round-img-container p {
+    text-align: center;
+}
+
+figcaption {
+    margin: 16px 32px 0 0;
+    font-weight: bold;
+    text-align: right;
+}
